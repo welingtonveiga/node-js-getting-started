@@ -6,11 +6,11 @@
     { "id": 1, "body": "some comment", "postId": 1 }
   ],
   "statuses": [
-    { "id": 1, "author": "Welington Veiga", "message": "Olá Mundo!", "created-at": "2016-09-03T02:50:12.208Z" },
-    { "id": 2, "author": "Welington Veiga", "message": "It works Folks!", "created-at": "2016-09-03T02:55:12.208Z" },
-    { "id": 3, "author": "Priscila Veiga", "message": "Só isso?", "created-at": "2016-09-03T02:56:12.208Z" },
-    { "id": 4, "author": "John Doe", "message": "First test!", "created-at": "2016-09-03T02:57:12.208Z" },
-    { "id": 5, "author": "Priscila Veiga", "message": "Grande coisa.", "created-at": "2016-09-03T02:59:12.208Z" }
+    { "id": 1, "author": "Welington Veiga", "message": "Olá Mundo!", "created_at": "2016-09-03T02:50:12.208Z" },
+    { "id": 2, "author": "Welington Veiga", "message": "It works Folks!", "created_at": "2016-09-03T02:55:12.208Z" },
+    { "id": 3, "author": "Priscila Veiga", "message": "Só isso?", "created_at": "2016-09-03T02:56:12.208Z" },
+    { "id": 4, "author": "John Doe", "message": "First test!", "created_at": "2016-09-03T02:57:12.208Z" },
+    { "id": 5, "author": "Priscila Veiga", "message": "Grande coisa.", "created_at": "2016-09-03T02:59:12.208Z" }
   ],
   "profile": { "name": "typicode" }
 }
