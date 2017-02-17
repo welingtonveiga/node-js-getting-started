@@ -29,7 +29,7 @@ server.post('/uploads/:username', function(req, res) {
   file = req.files.file;
 
   // Use the mv() method to place the file somewhere on your server 
-  file.mv(_dirname+'/public/uploads/'+req.params.username+'.jpg', function(err) {
+  file.mv(__dirname+'/public/uploads/'+req.params.username+'.jpg', function(err) {
     if (err) {
       res.status(500).send(err);
     }
