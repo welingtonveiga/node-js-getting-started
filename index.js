@@ -15,7 +15,7 @@ server.get('/echo/:username', function (req, res) {
   res.send();
 }); 
 
-server.use("/uploads", express.static(__dirname+'/public/uploads/'));
+server.use("/public", express.static(__dirname+'/public/uploads/'));
 
 server.post('/uploads/:username', function(req, res) {
   var file;
