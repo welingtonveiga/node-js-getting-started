@@ -1,4 +1,5 @@
 // server.js
+var express = require('express')
 var jsonServer = require('json-server')
 var server = jsonServer.create()
 var router = jsonServer.router('db.json')
@@ -13,6 +14,8 @@ server.get('/echo/:username', function (req, res) {
   res.status(200);
   res.send();
 }); 
+
+app.use("/uploads", express.static(__dirname+'/public/uploads/'));
 
 server.post('/uploads/:username', function(req, res) {
   var file;
