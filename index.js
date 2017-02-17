@@ -21,8 +21,7 @@ server.post('/uploads/:username', function(req, res) {
   var file;
 
   console.log(req.files);
-  console.log(req);
-
+  
   if (!req.files) {
     res.send('No files were uploaded.');
     return;
